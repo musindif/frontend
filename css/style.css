@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 } */
 header {
-  background-color: silver;
+  background-color: #DADADA;
   margin-bottom: 40px;
   padding: 2%;
   height: 100px;
@@ -49,7 +49,7 @@ header {
 .fa-angle-left {
   width: 20px;
   color: #00A5FF;
-  
+
 }
 .topnav {
 
@@ -94,6 +94,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   color: #fff;
+
 }
 
 .sub2 {
@@ -132,15 +133,37 @@ li:nth-of-type(2n) {
 .direction {
   /* grid-column: 3/4; */
   text-align: center;
-  background-color: #354BE5;
+  background-color: #2eb4ab;
   color: #fff;
-  border: 1px solid #354BE5;
+  border: 1px solid #2eb4ab;
+  border-radius: 25px 25px 0 0;
+  padding: 15px 0 ;
+
+}
+
+.directionreroute {
+  /* grid-column: 3/4; */
+  text-align: center;
+  background-color: #F19A37;
+  color: #fff;
+  border: 1px solid #F19A37;
+  border-radius: 25px 25px 0 0;
+  padding: 15px 0 ;
+
+}
+.directionofs {
+  /* grid-column: 3/4; */
+  text-align: center;
+  background-color: #F19A37;
+  color: #fff;
+  border: 1px solid #F19A37;
   border-radius: 25px 25px 0 0;
   padding: 15px 0 ;
 
 }
 .component {
   padding: 0 5%;
+  padding: 8px;
 
 }
 

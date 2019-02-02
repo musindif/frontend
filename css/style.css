@@ -1,12 +1,15 @@
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji","Segoe UI Symbol";
+  background-color: white;
+}
+/* body {
   font-family:"SF Pro Text",sans-serif;
   width: 375px;
   margin: 0 auto;
-
-}
+} */
 
 header {
-  background-color: #DADADA;
+  background-color: #F8F8F8 ;
   margin-bottom: 40px;
   padding: 2%;
   height: 100px;
@@ -22,8 +25,45 @@ header {
 }
 
 .fa-angle-left {
-  width: 20px;
+  width: 35px;
   color: #00A5FF;
+
+}
+.fa-user {
+  width: 35px;
+  color: #881CB8;
+}
+.fa-home {
+  width : 35px;
+  color: #881CB8;
+}
+
+.fa-battery-full{
+  width: 10px;
+  height: 10%;
+  color:#000;
+  float: right;
+  padding-right: 5px;
+}
+.fa-percent{
+  width :10px;
+  height: 10%;
+  color :#000;
+  float: right;
+  padding-right: 15px;
+
+}
+.fa-wifi {
+  width: 10px;
+  height: 10%;
+  color: #000;
+  padding-left: 5px;
+
+}
+
+.navbar {
+  display: block;
+  padding-bottom: 3px;
 
 }
 .topnav {
@@ -60,6 +100,7 @@ header {
 
 .toggle li:last-of-type {
     padding: 10px;
+
 }
 
 .sub {
@@ -69,6 +110,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   color: #fff;
+  box-shadow: 0 2px 4px  rgba(0,0,0,0.5);
 
 }
 
@@ -78,6 +120,7 @@ header {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 
 }
 
@@ -108,7 +151,8 @@ li:nth-of-type(2n) {
   color: #fff;
   border: 1px solid #2eb4ab;
   border-radius: 25px 25px 0 0;
-  padding: 15px 0 ;
+  padding: 15px 0px ;
+
 
 }
 
@@ -120,6 +164,7 @@ li:nth-of-type(2n) {
   border: 1px solid #F19A37;
   border-radius: 25px 25px 0 0;
   padding: 15px 0 ;
+
 
 }
 .directionofs {
@@ -134,20 +179,23 @@ li:nth-of-type(2n) {
 }
 .component {
   padding: 0 5%;
-  padding: 8px;
+  padding: 12px;
+  padding-bottom: 8px;
 
 }
 
 footer {
   position: fixed;
     bottom: 0;
-    width: 375px;
+    width: 100%;
     background-color: white;
     color: white;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
+
 }
-footer svg {
-  padding: 20px;
+footer i {
+  padding: 30px;
 }

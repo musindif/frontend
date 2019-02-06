@@ -6,7 +6,7 @@ body {
 
 header {
   background-color: #F8F8F8 ;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding: 2%;
   height: 100px;
 
@@ -39,7 +39,7 @@ header {
   height: 10%;
   color:#000;
   float: right;
-  padding-right: 5px;
+  padding-right: 15px;
 }
 .fa-percent{
   width :10px;
